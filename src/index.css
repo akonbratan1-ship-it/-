@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #08080f;
+  color: white;
+  font-family: Inter, sans-serif;
+  overflow-x: hidden;
+}
+
+.gradient {
+  background: linear-gradient(90deg,#ec4899,#8b5cf6,#06b6d4);
+}
+
+.glass {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+}
